@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Supreme Court | Democracy Dismantled</title>
+  <meta name="description" content="News reports on how the Supreme Court of India has handled cases challenging the Election Commission: delays, relief refused, and the times it stepped in.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-content-lang="en">
+  <a class="skip" href="#cases">Skip to cases</a>
+
+  <header class="masthead">
+    <a class="wordmark" href="index.html" aria-label="Democracy Dismantled, home">
+      <span class="ink" aria-hidden="true"></span>Democracy Dismantled
+    </a>
+    <nav aria-label="Sections">
+      <a href="reports.html#reports" data-i18n="nav.reports">Reports</a>
+      <details class="topics">
+        <summary data-i18n="nav.topics">Topics</summary>
+        <ul></ul>
+      </details>
+      <a href="reports.html#watch" data-i18n="nav.watch">Watch</a>
+      <a href="reports.html#posts" data-i18n="nav.posts">Posts</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero hero-sub" aria-labelledby="hero-title">
+      <h1 id="hero-title">Not yet, not now</h1>
+      <div class="hero-text">
+        <p class="hero-dek">How the Supreme Court has handled challenges to the Election Commission. The cases include the appointment law, still undecided after more than two years, and electoral bonds, decided after six. They also cover the requests to pause the voter-roll revision before the votes it shaped. Critics say the Court seldom stops the Commission in time. Others argue that courts are poorly placed to run elections. The last case lists the times the Court did step in.</p>
+        <p class="hero-count"><strong id="count-links">0</strong> reports across <strong id="count-cases">0</strong> cases</p>
+      </div>
+      <nav class="case-index" aria-label="Cases">
+        <ol id="case-index"></ol>
+      </nav>
+    </section>
+
+    <section class="reports" id="cases" aria-label="Cases">
+      <div class="section-head">
+        <h2>Cases</h2>
+        <div class="tools">
+          <label class="search">
+            <span class="visually-hidden">Search headlines and outlets</span>
+            <input id="q" type="search" placeholder="Search headlines or outlets" autocomplete="off">
+          </label>
+        </div>
+      </div>
+      <div class="filters" id="filters" role="group" aria-label="Filter by type of report"></div>
+      <div id="feed" aria-live="polite"></div>
+      <p class="empty" id="empty" hidden>No reports match. Clear the search box or pick another type.</p>
+    </section>
+
+    <section class="about" aria-labelledby="about-title">
+      <h2 id="about-title">How to read this page</h2>
+      <p>Each link carries a label. <b>Delay</b> is an adjournment, extension or case left pending. <b>Relief refused</b> is a request for a stay or interim order that the Court turned down. <b>Ruling</b> is a final decision. <b>Court stepped in</b> is an order that checked the Commission. <b>Analysis</b> is commentary on the Court's approach.</p>
+      <p>An allegation is not a finding. Read the original reports for the evidence and the replies. To add a report, edit <code>js/court-data.js</code>.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Democracy Dismantled. Links open the original publisher's site.</p>
+  </footer>
+
+  <script src="js/court-data.js"></script>
+  <script src="js/cases.js"></script>
+  <script src="js/topics-data.js"></script>
+  <script src="js/i18n-strings.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/menu.js"></script>
+</body>
+</html>
