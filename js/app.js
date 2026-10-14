@@ -175,7 +175,7 @@
     var vids = window.VIDEOS || [];
     var host = document.getElementById("videos");
     if (!vids.length) {
-      host.innerHTML = '<p class="empty">No videos yet. Add a YouTube video ID to <code>VIDEOS</code> in <code>js/data.js</code>.</p>';
+      host.innerHTML = '<p class="empty">No videos yet.</p>';
       return;
     }
     host.innerHTML = vids.map(function (v) {
@@ -202,7 +202,7 @@
     (P.tweets || []).forEach(function (u) {
       html += '<div class="post"><blockquote class="twitter-tweet" data-dnt="true"><a href="' + esc(u) + '">View post on X</a></blockquote></div>';
     });
-    host.innerHTML = html || '<p class="empty">No posts yet. Add an account or a post URL to <code>POSTS</code> in <code>js/data.js</code>.</p>';
+    host.innerHTML = html || '<p class="empty">No posts yet.</p>';
     if (!html) return;
 
     var loaded = false;
