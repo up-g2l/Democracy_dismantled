@@ -3,9 +3,10 @@
 A static website collecting reporting on India's election machinery. No build step:
 open `index.html`, or upload the whole folder to any static host (GitHub Pages, Netlify).
 
-- Live site: https://up-g2l.github.io/Democracy_dismantled/
+- Live site (Cloudflare): https://democracy-dismantled.demsaver.workers.dev/
+- Mirror (GitHub Pages): https://up-g2l.github.io/Democracy_dismantled/
 - Source: https://github.com/up-g2l/Democracy_dismantled (GitHub Pages serves the `main`
-  branch from the root folder; every push to `main` updates the live site)
+  branch from the root folder; every push to `main` updates both live addresses)
 - Working copy on Upendra's computer: `Claud Cowork/DemocracyDismantled`
 
 ## Pages
