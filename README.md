@@ -32,6 +32,9 @@ open `index.html`, or upload the whole folder to any static host (GitHub Pages, 
    on every page update automatically.
 4. Card images live in `images/topics/`. Any landscape-ish .svg, .jpg, .png or
    .webp works; the top part of the picture shows above the text.
+5. In the new page's `<head>`, update the canonical link, the `og:` and `twitter:`
+   tags (title, description, page address, image), and add a 1200×630 PNG to
+   `images/og/` for the link preview. Add the page's address to `sitemap.xml`.
 
 ## Languages
 - The language picker in the header offers English, Hindi, Bangla, Marathi, Tamil,
@@ -53,3 +56,5 @@ open `index.html`, or upload the whole folder to any static host (GitHub Pages, 
 - `js/home.js` – builds the home-page cards
 - `js/cases.js` – renders the topic pages
 - `js/app.js`, `js/data.js` – the Indian Express archive page
+- `images/og/` – 1200×630 pictures shown when a page is shared on WhatsApp, X etc.
+- `sitemap.xml`, `robots.txt` – tell search engines which pages exist
