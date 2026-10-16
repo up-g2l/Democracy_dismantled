@@ -292,6 +292,7 @@ code { font-size: .9em; background: var(--violet-soft); padding: .05em .35em; bo
 .type-acted::before { border-color: var(--muted); background: var(--muted); }
 .type-analysis { color: var(--muted); font-style: italic; }
 .type-analysis::before { border-color: var(--muted); }
+.type-hearing::before { border-color: var(--ink); }
 
 
 /* ================= Languages ================= */

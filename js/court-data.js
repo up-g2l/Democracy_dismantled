@@ -13,6 +13,7 @@ window.TYPES = {
   refused:  "Relief refused",
   verdict:  "Ruling",
   acted:    "Court stepped in",
+  hearing:  "Hearing",
   analysis: "Analysis"
 };
 
@@ -69,7 +70,7 @@ window.CASES = [
     id: "sir",
     place: "The SIR: no stay, then a ruling after the vote",
     election: "Bihar 2025, West Bengal 2026",
-    summary: "In July 2025 the Court refused to stay the Bihar revision, though it told the ECI to accept Aadhaar, voter ID and ration cards. It declined again in October 2025. The Bihar election was held in November, and the Court upheld the revision in May 2026. In West Bengal, it declined an oral plea against 7 lakh last-minute Form 6 additions. It also said people whose appeals were still pending could not vote in 2026. Legal scholars argue that the Court moved to supervising the exercise without first deciding whether it was lawful.",
+    summary: "In July 2025 the Court refused to stay the Bihar revision, though it told the ECI to accept Aadhaar, voter ID and ration cards. It declined again in October 2025. The Bihar election was held in November, and the Court upheld the revision in May 2026. In West Bengal, it declined an oral plea against 7 lakh last-minute Form 6 additions. It also said people whose appeals were still pending could not vote in 2026. Legal scholars argue that the Court moved to supervising the exercise without first deciding whether it was lawful. In October 2026 it brought forward to 28 October a plea asking the ECI to publish the reasons behind Delhi's SIR notices, two days before the deadline for claims. On 15 October it issued notice on a petition by Rahul Gandhi and nine other INDIA bloc leaders seeking the SIR file, an audit of deletions and a halt to the revision, but did not pause it.",
     links: [
       { title: "SC refuses to stay Bihar electoral roll revision", url: "https://sundayguardianlive.com/legally-speaking/sc-refuses-to-stay-bihar-electoral-roll-revision-135867/", outlet: "Sunday Guardian", date: "2025-07-13", type: "refused" },
       { title: "Supreme Court keeps faith in ECI; seeks transparency in Bihar electoral roll revision", url: "https://www.theweek.in/news/india/2025/10/16/supreme-court-keeps-faith-in-eci-seeks-transparency-in-bihar-electoral-roll-revision.amp.html", outlet: "The Week", date: "2025-10-16", type: "refused" },
@@ -77,7 +78,9 @@ window.CASES = [
       { title: "West Bengal SIR | Can't allow deleted persons to vote in 2026 elections when their appeals are pending: Supreme Court", url: "https://www.livelaw.in/amp/top-stories/west-bengal-sir-cant-allow-deleted-persons-to-vote-in-2026-elections-when-their-appeals-are-pending-supreme-court-530126", outlet: "LiveLaw", date: "2026-04", type: "refused" },
       { title: "West Bengal SIR: Supreme Court declines oral plea against addition of 7 lakh new voters using Form 6", url: "https://www.livelaw.in/top-stories/west-bengal-sir-supreme-court-declines-oral-plea-against-addition-of-7-lakh-new-voters-using-form-6-530979", outlet: "LiveLaw", date: "2026-04-20", type: "refused" },
       { title: "From evasion to implementation: The Supreme Court of India and the 'Special Intensive Revision'", url: "https://blog-iacl-aidc.org/2026-posts/2026/5/12/from-evasion-to-implementation-the-supreme-court-of-india-and-the-special-intensive-revision", outlet: "IACL-AIDC Blog", date: "2026-05-12", type: "analysis" },
-      { title: "'Doesn't override existing laws': Supreme Court upholds SIR in Bihar; here's why", url: "https://www.businesstoday.in/amp/india/story/doesnt-override-existing-laws-supreme-court-upholds-sir-in-bihar-heres-why-533505-2026-05-27", outlet: "Business Today", date: "2026-05-27", type: "verdict" }
+      { title: "'Doesn't override existing laws': Supreme Court upholds SIR in Bihar; here's why", url: "https://www.businesstoday.in/amp/india/story/doesnt-override-existing-laws-supreme-court-upholds-sir-in-bihar-heres-why-533505-2026-05-27", outlet: "Business Today", date: "2026-05-27", type: "verdict" },
+      { title: "SC advances hearing on plea over Delhi SIR to October 28, 2 days before last date for claims & objections", url: "https://www.etvbharat.com/en/bharat/sc-advances-hearing-on-plea-over-delhi-sir-to-october-28-2-days-before-last-date-for-claims-and-objections-enn26101403372", outlet: "ETV Bharat", date: "2026-10-14", type: "hearing" },
+      { title: "'One petitioner has to explain his conduct': Supreme Court issues notice on INDIA bloc leaders' petition against ECI over SIR", url: "https://www.livelaw.in/top-stories/supreme-court-notice-rahul-gandhi-india-bloc-plea-sir-eci-554801", outlet: "LiveLaw", date: "2026-10-15", type: "hearing" }
     ]
   },
   {

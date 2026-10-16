@@ -47,11 +47,12 @@ window.CASES = [
     id: "voters",
     place: "Voters waiting for a remedy",
     election: "Special Intensive Revision, 2026",
-    summary: "In Goa, eligible voters stayed off the roll even after eight emails in seven days, because the ECINet software would not let officials reverse decisions. In West Bengal, by 7 August 2026 tribunals had decided only about 2% of the 38 lakh appeals by people dropped from the roll. Of the appeals decided, about 91% of the names were restored. The Supreme Court had earlier said people whose appeals were still pending could not vote in the 2026 election.",
+    summary: "In Goa, eligible voters stayed off the roll even after eight emails in seven days, because the ECINet software would not let officials reverse decisions. In West Bengal, by 7 August 2026 tribunals had decided only about 2% of the 38 lakh appeals by people dropped from the roll. Of the appeals decided, about 91% of the names were restored. The Supreme Court had earlier said people whose appeals were still pending could not vote in the 2026 election. In Delhi, where more than 47 lakh names were cut from the draft roll, officials began rechecking the deletions in October 2026 and told booth officers not to reject entries over minor errors.",
     links: [
       { title: "West Bengal SIR | Can't allow deleted persons to vote in 2026 elections when their appeals are pending: Supreme Court", url: "https://www.livelaw.in/amp/top-stories/west-bengal-sir-cant-allow-deleted-persons-to-vote-in-2026-elections-when-their-appeals-are-pending-supreme-court-530126", outlet: "LiveLaw", date: "2026-04", type: "court" },
       { title: "West Bengal SIR: Only 2% of 38 lakh appeals against exclusion decided so far; 91% of those names restored to voter rolls", url: "https://www.barandbench.com/news/litigation/west-bengal-sir-only-2-of-38-lakh-appeals-against-exclusion-decided-so-far-91-of-those-names-restored-to-voter-rolls", outlet: "Bar & Bench", date: "2026-08-27", type: "court" },
-      { title: "8 emails in 7 days, but valid Goa voters still left out: EC's flawed system", url: "https://indianexpress.com/article/express-exclusive/election-commission-goa-sir-voter-deletion-ecinet-10891422/", outlet: "The Indian Express", date: "2026-09-24", type: "investigation" }
+      { title: "8 emails in 7 days, but valid Goa voters still left out: EC's flawed system", url: "https://indianexpress.com/article/express-exclusive/election-commission-goa-sir-voter-deletion-ecinet-10891422/", outlet: "The Indian Express", date: "2026-09-24", type: "investigation" },
+      { title: "SIR: Poll officials begin reverification of 47 lakh deleted voters in Delhi", url: "https://thefederal.com/category/states/north/delhi/delhi-sir-voter-roll-reverification-259773", outlet: "The Federal", date: "2026-10-16", type: "official" }
     ]
   },
   {
@@ -69,13 +70,14 @@ window.CASES = [
     id: "oversight",
     place: "Who can hold the CEC to account",
     election: "2023–2026",
-    summary: "The 2023 Act protects the commissioners from court cases over official acts. The Supreme Court is hearing a challenge to that protection. In 2026 opposition MPs gave notice of a motion to remove CEC Gyanesh Kumar. The Lok Sabha Speaker and Rajya Sabha Chairman rejected it on 6 April without giving reasons, and 73 MPs then filed a fresh notice. In October the Supreme Court refused to suspend the CEC, but asked him to answer the allegations.",
+    summary: "The 2023 Act protects the commissioners from court cases over official acts. The Supreme Court is hearing a challenge to that protection. In 2026 opposition MPs gave notice of a motion to remove CEC Gyanesh Kumar. The Lok Sabha Speaker and Rajya Sabha Chairman rejected it on 6 April without giving reasons, and 73 MPs then filed a fresh notice. In October the Supreme Court refused to suspend the CEC, but asked him to answer the allegations. Street protests demanding his resignation followed; on 13 October Delhi police detained leaders of the youth-led Cockroach Janta Party at Jantar Mantar. The ECI denies favouring any party.",
     links: [
       { title: "SC issues notice on plea against law to provide immunity to CEC, ECs", url: "https://indianexpress.com/article/legal-news/sc-notice-plea-law-provide-immunity-cec-ecs-10469521/", outlet: "The Indian Express", date: "2026-01-12", type: "court" },
       { title: "Opposition submits notice seeking impeachment motion against CEC Gyanesh Kumar", url: "https://thewire.in/government/opposition-submits-notice-seeking-impeachment-motion-against-cec-gyanesh-kumar", outlet: "The Wire", date: "2026-03-13", type: "parliament" },
       { title: "Removal notice against CEC Gyanesh Kumar: Opposition says rejecting motion at this stage undermined Constitutional process", url: "https://www.deccanherald.com/amp/story/india/delhi/removal-notice-against-cec-gyanesh-kumar-opposition-says-rejecting-motion-at-this-stage-undermined-constitutional-process-3960917", outlet: "Deccan Herald", date: "2026-04-08", type: "parliament" },
       { title: "Opposition submits fresh notice in Rajya Sabha to impeach chief election commissioner", url: "https://scroll.in/latest/1092361/opposition-submits-fresh-notice-in-rajya-sabha-to-impeach-chief-election-commissioner", outlet: "Scroll", date: "2026-04-24", type: "parliament" },
-      { title: "SC refuses to suspend CEC Gyanesh Kumar, seeks response on 'unilateral' decisions", url: "https://www.thenewsminute.com/news/sc-refuses-to-suspend-cec-gyanesh-kumar-seeks-response-on-unilateral-decisions", outlet: "The News Minute", date: "2026-10-05", type: "court" }
+      { title: "SC refuses to suspend CEC Gyanesh Kumar, seeks response on 'unilateral' decisions", url: "https://www.thenewsminute.com/news/sc-refuses-to-suspend-cec-gyanesh-kumar-seeks-response-on-unilateral-decisions", outlet: "The News Minute", date: "2026-10-05", type: "court" },
+      { title: "Police detain leaders of India's 'cockroach' movement at New Delhi protest", url: "https://www.aljazeera.com/news/2026/10/13/police-detain-leaders-of-indias-cockroach-movement-at-new-delhi-protest", outlet: "Al Jazeera", date: "2026-10-13", type: "ground" }
     ]
   }
 ];

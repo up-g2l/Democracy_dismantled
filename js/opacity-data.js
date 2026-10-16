@@ -13,7 +13,8 @@ window.TYPES = {
   official:      "Official response",
   court:         "Court",
   explainer:     "Explainer",
-  rti:           "RTI"
+  rti:           "RTI",
+  opinion:       "Opinion"
 };
 
 window.CASES = [
@@ -34,12 +35,14 @@ window.CASES = [
     id: "rolls",
     place: "Voter rolls that can't be searched",
     election: "2025",
-    summary: "The Opposition asked for voter rolls in a digital, machine-readable form so that duplicates and fake entries could be found. On 9 August 2025 the ECI replaced Bihar's digital draft rolls on its websites with low-resolution scanned images, which are much harder to check. CEC Gyanesh Kumar said a 2019 Supreme Court ruling bars sharing machine-readable rolls because they could be edited and misused. The ECI called reports that rolls had been taken down 'fake news'.",
+    summary: "The Opposition asked for voter rolls in a digital, machine-readable form so that duplicates and fake entries could be found. On 9 August 2025 the ECI replaced Bihar's digital draft rolls on its websites with low-resolution scanned images, which are much harder to check. CEC Gyanesh Kumar said a 2019 Supreme Court ruling bars sharing machine-readable rolls because they could be edited and misused. The ECI called reports that rolls had been taken down 'fake news'. On 15 October 2026, announcing a summary revision in 17 states and UTs, the ECI ordered that parties get searchable rolls and lists of additions and deletions. A Congress functionary writing in The Wire called it a U-turn that still falls short, since photographs, change logs and the deduplication method stay undisclosed.",
     links: [
       { title: "Rahul Gandhi alleges 'vote theft' in Maharashtra polls, demands machine-readable digital voter rolls amid EC reply", url: "https://www.deccanherald.com/amp/story/india%2Frahul-gandhi-alleges-vote-theft-in-maharashtra-polls-demands-machine-readable-digital-voter-rolls-amid-ec-reply-3600271", outlet: "Deccan Herald", date: "2025-06-24", type: "allegation" },
       { title: "Election Commission dismisses fake news on removal of e-voter rolls", url: "https://www.newsonair.gov.in/election-commission-dismisses-fake-news-on-removal-of-e-voter-rolls", outlet: "All India Radio", date: "2025-08-08", type: "official" },
       { title: "EC replaces digital draft voter lists in Bihar with scanned images that make finding errors harder", url: "https://scroll.in/latest/1085399/scroll_in", outlet: "Scroll", date: "2025-08-09", type: "investigation" },
-      { title: "Voter list in machine-readable form can't be shared: CEC cites SC order", url: "https://www.business-standard.com/india-news/voter-list-in-machine-readable-form-can-t-be-shared-cec-cites-sc-order-125081700647_1.html", outlet: "Business Standard", date: "2025-08-17", type: "official" }
+      { title: "Voter list in machine-readable form can't be shared: CEC cites SC order", url: "https://www.business-standard.com/india-news/voter-list-in-machine-readable-form-can-t-be-shared-cec-cites-sc-order-125081700647_1.html", outlet: "Business Standard", date: "2025-08-17", type: "official" },
+      { title: "Election Commission announces voter list revision in 17 states, SIR schedule to follow", url: "https://www.businesstoday.in/india/story/election-commission-announces-voter-list-revision-in-17-states-sir-schedule-to-follow-561922-2026-10-15", outlet: "Business Today", date: "2026-10-15", type: "official" },
+      { title: "After opposing searchable voter rolls for 8 years, ECI finally makes a U-turn on SSR data", url: "https://m.thewire.in/article/government/after-opposing-searchable-voter-rolls-for-8-years-eci-finally-makes-a-u-turn-on-ssr-data", outlet: "The Wire", date: "2026-10-16", type: "opinion" }
     ]
   },
   {
@@ -72,11 +75,12 @@ window.CASES = [
     id: "footage",
     place: "Polling footage and records",
     election: "2024–2025",
-    summary: "In December 2024 the rules were changed on the ECI's advice so that CCTV footage, webcasting recordings and candidate videos are no longer open to public inspection. The ECI cited voter secrecy. In May 2025 it told states that polling footage could be destroyed after 45 days if no election petition was filed. Petitions against the rule change are pending in the Supreme Court.",
+    summary: "In December 2024 the rules were changed on the ECI's advice so that CCTV footage, webcasting recordings and candidate videos are no longer open to public inspection. The ECI cited voter secrecy. In May 2025 it told states that polling footage could be destroyed after 45 days if no election petition was filed. Petitions against the rule change are pending in the Supreme Court. In a September 2026 RTI reply, the ECI said it holds no record of how many requests for such footage it had received, though 'overwhelming demand' was the reason given for the restriction.",
     links: [
       { title: "Election rule tweaked to restrict public inspection of electronic records; Congress cries foul", url: "https://www.tribuneindia.com/news/india/election-rules-tweaked-to-restrict-public-inspection-of-electronic-records", outlet: "The Tribune", date: "2024-12-21", type: "official" },
       { title: "SC issues notice to Union govt, ECI over plea against change in polling rules", url: "https://m.thewire.in/article/law/sc-issues-notice-to-union-govt-eci-over-plea-against-change-in-polling-rules", outlet: "The Wire", date: "2025-02-03", type: "court" },
-      { title: "Citing 'misuse', EC cuts storage time of polling videos, photos to 45 days", url: "https://scroll.in/latest/1083683/citing-misuse-ec-cuts-storage-time-of-polling-videos-photos-to-45-days", outlet: "Scroll", date: "2025-06-20", type: "official" }
+      { title: "Citing 'misuse', EC cuts storage time of polling videos, photos to 45 days", url: "https://scroll.in/latest/1083683/citing-misuse-ec-cuts-storage-time-of-polling-videos-photos-to-45-days", outlet: "Scroll", date: "2025-06-20", type: "official" },
+      { title: "ECI restricts electoral CCTV access citing 'overwhelming demand', but admits zero records in RTI", url: "https://m.thewire.in/article/politics/eci-restricts-electoral-cctv-access-citing-overwhelming-demand-but-admits-zero-records-in-rti", outlet: "The Wire", date: "2026-10-13", type: "rti" }
     ]
   },
   {
