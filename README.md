@@ -56,5 +56,7 @@ open `index.html`, or upload the whole folder to any static host (GitHub Pages, 
 - `js/home.js` – builds the home-page cards
 - `js/cases.js` – renders the topic pages
 - `js/app.js`, `js/data.js` – the Indian Express archive page
+- `js/videos-data.js` – the videos behind the Watch button; tag each with the pages it belongs on
+- `js/watch.js` – the Watch overlay
 - `images/og/` – 1200×630 pictures shown when a page is shared on WhatsApp, X etc.
 - `sitemap.xml`, `robots.txt` – tell search engines which pages exist

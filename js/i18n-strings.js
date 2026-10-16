@@ -30,7 +30,8 @@ window.I18N = {
     "home.footer": "Every page links to the original reporting. This site is not affiliated with any publisher or political party.",
     "notice.en": "This page is in English.",
     "notice.link": "Read it in your language with Google Translate",
-    "notice.offline": "Machine translation will work once the site is online."
+    "notice.offline": "Machine translation will work once the site is online.",
+    "watch.title": "Videos", "watch.topic": "On this topic", "watch.all": "All videos", "watch.close": "Close", "watch.more": "More on YouTube:", "watch.open": "Open on YouTube", "watch.play": "Play"
   },
   hi: {
     "nav.reports": "रिपोर्टें", "nav.topics": "विषय", "nav.watch": "देखें", "nav.posts": "पोस्ट",
@@ -40,7 +41,8 @@ window.I18N = {
     "home.footer": "हर पृष्ठ मूल रिपोर्टिंग से जुड़ा है। यह साइट किसी प्रकाशक या राजनीतिक दल से संबद्ध नहीं है।",
     "notice.en": "यह पृष्ठ अंग्रेज़ी में है।",
     "notice.link": "Google Translate से हिन्दी में पढ़ें",
-    "notice.offline": "साइट ऑनलाइन होने पर मशीन अनुवाद काम करेगा।"
+    "notice.offline": "साइट ऑनलाइन होने पर मशीन अनुवाद काम करेगा।",
+    "watch.title": "वीडियो", "watch.topic": "इस विषय पर", "watch.all": "सभी वीडियो", "watch.close": "बंद करें", "watch.more": "YouTube पर और:", "watch.open": "YouTube पर खोलें", "watch.play": "चलाएँ"
   },
   bn: {
     "nav.reports": "প্রতিবেদন", "nav.topics": "বিষয়", "nav.watch": "দেখুন", "nav.posts": "পোস্ট",
@@ -50,7 +52,8 @@ window.I18N = {
     "home.footer": "প্রতিটি পাতা মূল প্রতিবেদনের সঙ্গে যুক্ত। এই সাইট কোনো প্রকাশক বা রাজনৈতিক দলের সঙ্গে যুক্ত নয়।",
     "notice.en": "এই পাতাটি ইংরেজিতে।",
     "notice.link": "Google Translate-এ বাংলায় পড়ুন",
-    "notice.offline": "সাইট অনলাইনে এলে যন্ত্র-অনুবাদ কাজ করবে।"
+    "notice.offline": "সাইট অনলাইনে এলে যন্ত্র-অনুবাদ কাজ করবে।",
+    "watch.title": "ভিডিও", "watch.topic": "এই বিষয়ে", "watch.all": "সব ভিডিও", "watch.close": "বন্ধ করুন", "watch.more": "YouTube-এ আরও:", "watch.open": "YouTube-এ খুলুন", "watch.play": "চালান"
   },
   mr: {
     "nav.reports": "वृत्ते", "nav.topics": "विषय", "nav.watch": "पाहा", "nav.posts": "पोस्ट",
@@ -60,7 +63,8 @@ window.I18N = {
     "home.footer": "प्रत्येक पान मूळ वृत्तांकनाशी जोडलेले आहे. ही साइट कोणत्याही प्रकाशक किंवा राजकीय पक्षाशी संलग्न नाही.",
     "notice.en": "हे पान इंग्रजीत आहे.",
     "notice.link": "Google Translate वापरून मराठीत वाचा",
-    "notice.offline": "साइट ऑनलाइन आल्यावर यंत्र-अनुवाद चालेल."
+    "notice.offline": "साइट ऑनलाइन आल्यावर यंत्र-अनुवाद चालेल.",
+    "watch.title": "व्हिडिओ", "watch.topic": "या विषयावर", "watch.all": "सर्व व्हिडिओ", "watch.close": "बंद करा", "watch.more": "YouTube वर अधिक:", "watch.open": "YouTube वर उघडा", "watch.play": "चालवा"
   },
   ta: {
     "nav.reports": "செய்திகள்", "nav.topics": "தலைப்புகள்", "nav.watch": "காணொளிகள்", "nav.posts": "பதிவுகள்",
@@ -70,7 +74,8 @@ window.I18N = {
     "home.footer": "ஒவ்வொரு பக்கமும் மூலச் செய்திகளுடன் இணைக்கப்பட்டுள்ளது. இத்தளம் எந்த வெளியீட்டாளருடனோ அரசியல் கட்சியுடனோ தொடர்புடையதல்ல.",
     "notice.en": "இந்தப் பக்கம் ஆங்கிலத்தில் உள்ளது.",
     "notice.link": "Google Translate மூலம் தமிழில் படிக்க",
-    "notice.offline": "தளம் இணையத்தில் வெளியான பின் இயந்திர மொழிபெயர்ப்பு செயல்படும்."
+    "notice.offline": "தளம் இணையத்தில் வெளியான பின் இயந்திர மொழிபெயர்ப்பு செயல்படும்.",
+    "watch.title": "காணொளிகள்", "watch.topic": "இந்தத் தலைப்பில்", "watch.all": "அனைத்து காணொளிகளும்", "watch.close": "மூடு", "watch.more": "YouTube-இல் மேலும்:", "watch.open": "YouTube-இல் திற", "watch.play": "இயக்கு"
   },
   te: {
     "nav.reports": "వార్తలు", "nav.topics": "అంశాలు", "nav.watch": "వీడియోలు", "nav.posts": "పోస్టులు",
@@ -80,7 +85,8 @@ window.I18N = {
     "home.footer": "ప్రతి పేజీ అసలు వార్తలకు లింక్ చేస్తుంది. ఈ సైట్‌కు ఏ ప్రచురణకర్తతో గానీ రాజకీయ పార్టీతో గానీ సంబంధం లేదు.",
     "notice.en": "ఈ పేజీ ఆంగ్లంలో ఉంది.",
     "notice.link": "Google Translate ద్వారా తెలుగులో చదవండి",
-    "notice.offline": "సైట్ ఆన్‌లైన్‌లోకి వచ్చాక యంత్ర అనువాదం పనిచేస్తుంది."
+    "notice.offline": "సైట్ ఆన్‌లైన్‌లోకి వచ్చాక యంత్ర అనువాదం పనిచేస్తుంది.",
+    "watch.title": "వీడియోలు", "watch.topic": "ఈ అంశంపై", "watch.all": "అన్ని వీడియోలు", "watch.close": "మూసివేయి", "watch.more": "YouTubeలో మరిన్ని:", "watch.open": "YouTubeలో తెరవండి", "watch.play": "ప్లే చేయి"
   },
   gu: {
     "nav.reports": "અહેવાલો", "nav.topics": "વિષયો", "nav.watch": "જુઓ", "nav.posts": "પોસ્ટ",
@@ -90,7 +96,8 @@ window.I18N = {
     "home.footer": "દરેક પાનું મૂળ અહેવાલો સાથે જોડાયેલું છે. આ સાઇટ કોઈ પ્રકાશક કે રાજકીય પક્ષ સાથે સંકળાયેલી નથી.",
     "notice.en": "આ પાનું અંગ્રેજીમાં છે.",
     "notice.link": "Google Translate વડે ગુજરાતીમાં વાંચો",
-    "notice.offline": "સાઇટ ઑનલાઇન થયા પછી મશીન અનુવાદ કામ કરશે."
+    "notice.offline": "સાઇટ ઑનલાઇન થયા પછી મશીન અનુવાદ કામ કરશે.",
+    "watch.title": "વિડિયો", "watch.topic": "આ વિષય પર", "watch.all": "બધા વિડિયો", "watch.close": "બંધ કરો", "watch.more": "YouTube પર વધુ:", "watch.open": "YouTube પર ખોલો", "watch.play": "ચલાવો"
   },
   kn: {
     "nav.reports": "ವರದಿಗಳು", "nav.topics": "ವಿಷಯಗಳು", "nav.watch": "ವೀಡಿಯೊ", "nav.posts": "ಪೋಸ್ಟ್‌ಗಳು",
@@ -100,7 +107,8 @@ window.I18N = {
     "home.footer": "ಪ್ರತಿ ಪುಟವೂ ಮೂಲ ವರದಿಗಳಿಗೆ ಲಿಂಕ್ ಮಾಡುತ್ತದೆ. ಈ ಸೈಟ್ ಯಾವುದೇ ಪ್ರಕಾಶಕ ಅಥವಾ ರಾಜಕೀಯ ಪಕ್ಷದೊಂದಿಗೆ ಸಂಬಂಧ ಹೊಂದಿಲ್ಲ.",
     "notice.en": "ಈ ಪುಟ ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿದೆ.",
     "notice.link": "Google Translate ಮೂಲಕ ಕನ್ನಡದಲ್ಲಿ ಓದಿ",
-    "notice.offline": "ಸೈಟ್ ಆನ್‌ಲೈನ್ ಆದ ನಂತರ ಯಂತ್ರ ಅನುವಾದ ಕೆಲಸ ಮಾಡುತ್ತದೆ."
+    "notice.offline": "ಸೈಟ್ ಆನ್‌ಲೈನ್ ಆದ ನಂತರ ಯಂತ್ರ ಅನುವಾದ ಕೆಲಸ ಮಾಡುತ್ತದೆ.",
+    "watch.title": "ವೀಡಿಯೊಗಳು", "watch.topic": "ಈ ವಿಷಯದ ಬಗ್ಗೆ", "watch.all": "ಎಲ್ಲಾ ವೀಡಿಯೊಗಳು", "watch.close": "ಮುಚ್ಚಿ", "watch.more": "YouTube ನಲ್ಲಿ ಇನ್ನಷ್ಟು:", "watch.open": "YouTube ನಲ್ಲಿ ತೆರೆಯಿರಿ", "watch.play": "ಪ್ಲೇ ಮಾಡಿ"
   },
   ml: {
     "nav.reports": "റിപ്പോർട്ടുകൾ", "nav.topics": "വിഷയങ്ങൾ", "nav.watch": "വീഡിയോ", "nav.posts": "പോസ്റ്റുകൾ",
@@ -110,7 +118,8 @@ window.I18N = {
     "home.footer": "ഓരോ താളും യഥാർഥ റിപ്പോർട്ടുകളിലേക്ക് ലിങ്ക് ചെയ്യുന്നു. ഈ സൈറ്റിന് ഏതെങ്കിലും പ്രസാധകനുമായോ രാഷ്ട്രീയ പാർട്ടിയുമായോ ബന്ധമില്ല.",
     "notice.en": "ഈ താൾ ഇംഗ്ലീഷിലാണ്.",
     "notice.link": "Google Translate വഴി മലയാളത്തിൽ വായിക്കുക",
-    "notice.offline": "സൈറ്റ് ഓൺലൈനായാൽ യന്ത്ര വിവർത്തനം പ്രവർത്തിക്കും."
+    "notice.offline": "സൈറ്റ് ഓൺലൈനായാൽ യന്ത്ര വിവർത്തനം പ്രവർത്തിക്കും.",
+    "watch.title": "വീഡിയോകൾ", "watch.topic": "ഈ വിഷയത്തിൽ", "watch.all": "എല്ലാ വീഡിയോകളും", "watch.close": "അടയ്ക്കുക", "watch.more": "YouTube-ൽ കൂടുതൽ:", "watch.open": "YouTube-ൽ തുറക്കുക", "watch.play": "പ്ലേ ചെയ്യുക"
   },
   pa: {
     "nav.reports": "ਰਿਪੋਰਟਾਂ", "nav.topics": "ਵਿਸ਼ੇ", "nav.watch": "ਦੇਖੋ", "nav.posts": "ਪੋਸਟਾਂ",
@@ -120,7 +129,8 @@ window.I18N = {
     "home.footer": "ਹਰ ਪੰਨਾ ਮੂਲ ਰਿਪੋਰਟਾਂ ਨਾਲ ਜੁੜਿਆ ਹੈ। ਇਹ ਸਾਈਟ ਕਿਸੇ ਪ੍ਰਕਾਸ਼ਕ ਜਾਂ ਸਿਆਸੀ ਪਾਰਟੀ ਨਾਲ ਸੰਬੰਧਿਤ ਨਹੀਂ ਹੈ।",
     "notice.en": "ਇਹ ਪੰਨਾ ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਹੈ।",
     "notice.link": "Google Translate ਨਾਲ ਪੰਜਾਬੀ ਵਿੱਚ ਪੜ੍ਹੋ",
-    "notice.offline": "ਸਾਈਟ ਆਨਲਾਈਨ ਹੋਣ 'ਤੇ ਮਸ਼ੀਨੀ ਅਨੁਵਾਦ ਕੰਮ ਕਰੇਗਾ।"
+    "notice.offline": "ਸਾਈਟ ਆਨਲਾਈਨ ਹੋਣ 'ਤੇ ਮਸ਼ੀਨੀ ਅਨੁਵਾਦ ਕੰਮ ਕਰੇਗਾ।",
+    "watch.title": "ਵੀਡੀਓ", "watch.topic": "ਇਸ ਵਿਸ਼ੇ 'ਤੇ", "watch.all": "ਸਾਰੀਆਂ ਵੀਡੀਓ", "watch.close": "ਬੰਦ ਕਰੋ", "watch.more": "YouTube 'ਤੇ ਹੋਰ:", "watch.open": "YouTube 'ਤੇ ਖੋਲ੍ਹੋ", "watch.play": "ਚਲਾਓ"
   },
   or: {
     "nav.reports": "ରିପୋର୍ଟ", "nav.topics": "ବିଷୟ", "nav.watch": "ଦେଖନ୍ତୁ", "nav.posts": "ପୋଷ୍ଟ",
@@ -130,7 +140,8 @@ window.I18N = {
     "home.footer": "ପ୍ରତ୍ୟେକ ପୃଷ୍ଠା ମୂଳ ରିପୋର୍ଟ ସହ ଯୋଡ଼ା ହୋଇଛି। ଏହି ସାଇଟ୍ କୌଣସି ପ୍ରକାଶକ କିମ୍ବା ରାଜନୈତିକ ଦଳ ସହ ଜଡ଼ିତ ନୁହେଁ।",
     "notice.en": "ଏହି ପୃଷ୍ଠାଟି ଇଂରାଜୀରେ ଅଛି।",
     "notice.link": "Google Translate ଦ୍ୱାରା ଓଡ଼ିଆରେ ପଢ଼ନ୍ତୁ",
-    "notice.offline": "ସାଇଟ୍ ଅନଲାଇନ୍ ହେବା ପରେ ଯାନ୍ତ୍ରିକ ଅନୁବାଦ କାମ କରିବ।"
+    "notice.offline": "ସାଇଟ୍ ଅନଲାଇନ୍ ହେବା ପରେ ଯାନ୍ତ୍ରିକ ଅନୁବାଦ କାମ କରିବ।",
+    "watch.title": "ଭିଡିଓ", "watch.topic": "ଏହି ବିଷୟରେ", "watch.all": "ସମସ୍ତ ଭିଡିଓ", "watch.close": "ବନ୍ଦ କରନ୍ତୁ", "watch.more": "YouTubeରେ ଅଧିକ:", "watch.open": "YouTubeରେ ଖୋଲନ୍ତୁ", "watch.play": "ଚଲାନ୍ତୁ"
   },
   ur: {
     "nav.reports": "رپورٹیں", "nav.topics": "موضوعات", "nav.watch": "دیکھیں", "nav.posts": "پوسٹس",
@@ -140,6 +151,7 @@ window.I18N = {
     "home.footer": "ہر صفحہ اصل رپورٹنگ سے جڑا ہے۔ یہ سائٹ کسی ناشر یا سیاسی جماعت سے وابستہ نہیں۔",
     "notice.en": "یہ صفحہ انگریزی میں ہے۔",
     "notice.link": "Google Translate کے ذریعے اردو میں پڑھیں",
-    "notice.offline": "سائٹ آن لائن ہونے پر مشینی ترجمہ کام کرے گا۔"
+    "notice.offline": "سائٹ آن لائن ہونے پر مشینی ترجمہ کام کرے گا۔",
+    "watch.title": "ویڈیوز", "watch.topic": "اس موضوع پر", "watch.all": "تمام ویڈیوز", "watch.close": "بند کریں", "watch.more": "YouTube پر مزید:", "watch.open": "YouTube پر کھولیں", "watch.play": "چلائیں"
   }
 };
