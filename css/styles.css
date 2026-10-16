@@ -400,15 +400,15 @@ body::before {
 /* ---------- Watch button and video overlay ---------- */
 .nav-watch {
   display: inline-flex; align-items: center; gap: 7px; cursor: pointer;
-  font: inherit; font-size: .95rem; font-weight: 600; color: #fff;
-  background: var(--violet); border: 0; border-radius: 999px; padding: 6px 14px 6px 11px;
+  font: inherit; font-size: .95rem; font-weight: 700; color: #111018;
+  background: #FF9933; border: 0; border-radius: 999px; padding: 6px 14px 6px 11px;
 }
 .nav-watch::before { content: ""; width: 0; height: 0; border-style: solid; border-width: 5px 0 5px 8px; border-color: transparent transparent transparent currentColor; }
-.nav-watch:hover { filter: brightness(1.12); }
+.nav-watch:hover { background: #ffad5c; }
 .nav-watch:focus-visible { outline: 2px solid var(--focus); outline-offset: 3px; }
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .nav-watch { color: #14121a; } }
-:root[data-theme="dark"] .nav-watch { color: #14121a; }
-.home .nav-watch { background: #0b1446; color: #fff; }
+/* The home page header is already saffron, so the button turns navy there. */
+.home .nav-watch { background: #0b1446; color: #ffffff; }
+.home .nav-watch:hover { background: #1a2a6e; }
 
 dialog.watch {
   width: min(1180px, calc(100vw - 24px)); max-width: none; max-height: calc(100dvh - 24px);
