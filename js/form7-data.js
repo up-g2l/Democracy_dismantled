@@ -94,6 +94,18 @@ window.CASES = [
     ]
   },
   {
+    id: "auto-generated",
+    place: "Form 7s filed by the software itself",
+    election: "Special Intensive Revision, 2025–2026",
+    summary: "During the revision, when an officer did not approve a voter at a hearing, the ECI's ERONET software generated a Form 7 objection in that officer's name, so the same officer raised the objection and decided it, with no reason recorded. Form 7 is meant to be filed by an elector, on one of six grounds. In Uttar Pradesh, 85,854 such forms were found; the state's election office called the report misleading and said notices and hearings came first. In West Bengal, 5.38 lakh voters were removed this way, against about 7,700 deletions through Form 7s filed by people. The Hindu found the same practice in Delhi and Uttarakhand, with no written ECI order behind it.",
+    links: [
+      { title: "In UP SIR, ECI software auto-generated 85,854 forms to delete voters without a reason", url: "https://www.reporters-collective.in/trc/eci-software-auto-generated-forms-to-delete-without-reason", outlet: "The Reporters' Collective", date: "2026-10-09", type: "investigation" },
+      { title: "'Misleading': UP CEO rejects report of 85,854 voters being deleted using Form-7", url: "https://www.socialnews.xyz/2026/10/13/misleading-up-ceo-rejects-report-of-85854-voters-being-deleted-using-form-7/", outlet: "Social News XYZ (IANS)", date: "2026-10-13", type: "official" },
+      { title: "Despite no order or SOP issued by ECI, EROs using auto-generated Form 7s to delete voters: report", url: "https://m.thewire.in/article/government/despite-no-order-sop-issued-by-eci-eros-using-auto-generated-form-7s-to-delete-voters", outlet: "The Wire (citing The Hindu)", date: "2026-10-16", type: "investigation" },
+      { title: "The ECI software deleted 5.38 lakh Bengal voters with auto-generated rejections without citing a reason", url: "https://m.thewire.in/article/rights/the-eci-software-deleted-5-38-lakh-bengal-voters-with-auto-generated-rejections-without-citing-a-reason", outlet: "The Wire", date: "2026-10-17", type: "investigation" }
+    ]
+  },
+  {
     id: "across-states",
     place: "Across states",
     election: "Background",
