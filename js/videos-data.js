@@ -8,7 +8,7 @@
     title   – the video's title
     channel – who published it
     topics  – which pages it belongs on. Use the page names:
-              reports, bogus-voters, form-6, form-7, centralisation, opacity,
+              reports, west-bengal, bogus-voters, form-6, form-7, centralisation, opacity,
               double-standards, accountability, selection, supreme-court
               A page with no videos of its own shows all of them.
   The home page shows every video. Order here is the order shown.
@@ -18,15 +18,17 @@
 
 window.VIDEOS = [
   // DeKoder — data analysis by Prannoy Roy
-  { id: "K5qUfsPBSvQ", channel: "DeKoder", title: "More SIR deletions, bigger BJP swing? Prannoy Roy DeKodes the data", topics: ["bogus-voters", "form-7", "accountability"] },
-  { id: "oAoAS0cex1k", channel: "DeKoder", title: "SIR data & voter deletions: observations across constituencies | Prannoy Roy", topics: ["bogus-voters", "form-7", "opacity"] },
-  { id: "F9DJsLxdgCY", channel: "DeKoder", title: "Prannoy Roy responds to Bengal Chief Electoral Officer's tweet and BJP's claims on SIR", topics: ["bogus-voters", "accountability"] },
-  { id: "e7KtOBVCvt8", channel: "DeKoder", title: "Millions of voters deleted? Prannoy Roy examines SIR and BJP's Bengal landslide", topics: ["bogus-voters", "form-7"] },
+  { id: "K5qUfsPBSvQ", channel: "DeKoder", title: "More SIR deletions, bigger BJP swing? Prannoy Roy DeKodes the data", topics: ["west-bengal", "bogus-voters", "form-7", "accountability"] },
+  { id: "oAoAS0cex1k", channel: "DeKoder", title: "SIR data & voter deletions: observations across constituencies | Prannoy Roy", topics: ["west-bengal", "bogus-voters", "form-7", "opacity"] },
+  { id: "F9DJsLxdgCY", channel: "DeKoder", title: "Prannoy Roy responds to Bengal Chief Electoral Officer's tweet and BJP's claims on SIR", topics: ["west-bengal", "bogus-voters", "accountability"] },
+  { id: "e7KtOBVCvt8", channel: "DeKoder", title: "Millions of voters deleted? Prannoy Roy examines SIR and BJP's Bengal landslide", topics: ["west-bengal", "bogus-voters", "form-7"] },
+
+  { id: "wz3-lq2Hw2U", channel: "DeKoder", title: "Will these factors decide who wins Bengal? | Countdown Bengal 2026", topics: ["west-bengal"] },
 
   // The Indian Express
   { id: "FsVh7z4c6Io", channel: "The Indian Express", title: "Inside the Election Commission: investigation finds ECs split on key issues", topics: ["reports", "centralisation", "opacity", "selection"] },
   { id: "2tcdWRXoUAM", channel: "The Indian Express", title: "Express Investigation: how two Election Commissioners objected to proceedings", topics: ["reports", "centralisation", "opacity"] },
-  { id: "bOFRlJ86OWY", channel: "Indian Express Hindi", title: "चुनाव आयोग में बड़ी गड़बड़ियों का खुलासा | वोटर लिस्ट, Bengal SIR पर खुद चुनाव आयुक्तों ने उठाए सवाल", topics: ["reports", "centralisation"] },
+  { id: "bOFRlJ86OWY", channel: "Indian Express Hindi", title: "चुनाव आयोग में बड़ी गड़बड़ियों का खुलासा | वोटर लिस्ट, Bengal SIR पर खुद चुनाव आयुक्तों ने उठाए सवाल", topics: ["west-bengal", "reports", "centralisation"] },
   { id: "qOvgKRtDjJc", channel: "The Indian Express", title: "Rahul Gandhi's 'vote chori' claim: SIT finds ₹80-per-voter deletion scam in Karnataka", topics: ["reports", "form-7", "accountability"] },
   { id: "cXmcT2Cgr-E", channel: "Visanalysis", title: "What Indian Express got wrong in its Election Commission exposé (a critique)", topics: ["reports", "centralisation"] },
 
@@ -51,7 +53,7 @@ window.VIDEOS = [
   { id: "SXt2K1w00t8", channel: "CNN-News18", title: "ECI-SIR row: is Rahul Gandhi's 'vote chori' charge gaining ground?", topics: ["bogus-voters", "double-standards"] },
 
   // In court
-  { id: "KQ1z7XJEA60", channel: "India Today", title: "Supreme Court vs Election Commission over Form 6? | CEC Gyanesh Kumar | SIR row", topics: ["form-6", "supreme-court"] }
+  { id: "KQ1z7XJEA60", channel: "India Today", title: "Supreme Court vs Election Commission over Form 6? | CEC Gyanesh Kumar | SIR row", topics: ["west-bengal", "form-6", "supreme-court"] }
 ];
 
 window.VIDEO_CHANNELS = [
