@@ -97,21 +97,24 @@ window.CASES = [
     id: "auto-generated",
     place: "Form 7s filed by the software itself",
     election: "Special Intensive Revision, 2025–2026",
-    summary: "During the revision, when an officer did not approve a voter at a hearing, the ECI's ERONET software generated a Form 7 objection in that officer's name, so the same officer raised the objection and decided it, with no reason recorded. Form 7 is meant to be filed by an elector, on one of six grounds. In Uttar Pradesh, 85,854 such forms were found; the state's election office called the report misleading and said notices and hearings came first. In West Bengal, 5.38 lakh voters were removed this way, against about 7,700 deletions through Form 7s filed by people. The Hindu found the same practice in Delhi and Uttarakhand, with no written ECI order behind it.",
+    summary: "During the revision, when an officer did not approve a voter at a hearing, the ECI's ERONET software generated a Form 7 objection in that officer's name, so the same officer raised the objection and decided it, with no reason recorded. Form 7 is meant to be filed by an elector, on one of six grounds. In Uttar Pradesh, 85,854 such forms were found; the state's election office called the report misleading and said notices and hearings came first. In West Bengal, 5.38 lakh voters were removed this way, against about 7,700 deletions through Form 7s filed by people. The Hindu found the same practice in Delhi and Uttarakhand, with no written ECI order behind it. The Reporters' Collective says the UP office's reply in fact confirmed both the blank-reason forms and more than 200 bulk deletion attempts aimed at Muslim voters; the office later called a viral post built on the report 'fake news'.",
     links: [
       { title: "In UP SIR, ECI software auto-generated 85,854 forms to delete voters without a reason", url: "https://www.reporters-collective.in/trc/eci-software-auto-generated-forms-to-delete-without-reason", outlet: "The Reporters' Collective", date: "2026-10-09", type: "investigation" },
       { title: "'Misleading': UP CEO rejects report of 85,854 voters being deleted using Form-7", url: "https://www.socialnews.xyz/2026/10/13/misleading-up-ceo-rejects-report-of-85854-voters-being-deleted-using-form-7/", outlet: "Social News XYZ (IANS)", date: "2026-10-13", type: "official" },
+      { title: "UP CEO admits ECI auto-generated 85,000+ voter deletion forms without a reason, confirms mass deletion attempts against Muslims", url: "https://www.reporters-collective.in/trc/up-ceo-admits-eci-auto-generated-voter-deletion-forms", outlet: "The Reporters' Collective", date: "2026-10-14", type: "investigation" },
       { title: "Despite no order or SOP issued by ECI, EROs using auto-generated Form 7s to delete voters: report", url: "https://m.thewire.in/article/government/despite-no-order-sop-issued-by-eci-eros-using-auto-generated-form-7s-to-delete-voters", outlet: "The Wire (citing The Hindu)", date: "2026-10-16", type: "investigation" },
-      { title: "The ECI software deleted 5.38 lakh Bengal voters with auto-generated rejections without citing a reason", url: "https://m.thewire.in/article/rights/the-eci-software-deleted-5-38-lakh-bengal-voters-with-auto-generated-rejections-without-citing-a-reason", outlet: "The Wire", date: "2026-10-17", type: "investigation" }
+      { title: "The ECI software deleted 5.38 lakh Bengal voters with auto-generated rejections without citing a reason", url: "https://m.thewire.in/article/rights/the-eci-software-deleted-5-38-lakh-bengal-voters-with-auto-generated-rejections-without-citing-a-reason", outlet: "The Wire", date: "2026-10-17", type: "investigation" },
+      { title: "Viral post claims UP CEO admitted 85,000 Muslim voters' forms were auto-deleted; election chief calls it 'fake news'", url: "https://organiser.org/2026/10/19/417658/bharat/viral-post-claims-up-ceo-admitted-85000-muslim-voters-forms-were-auto-deleted-election-chief-calls-it-fake-news/", outlet: "Organiser", date: "2026-10-19", type: "official" }
     ]
   },
   {
     id: "across-states",
     place: "Across states",
     election: "Background",
-    summary: "An October 2026 explainer sets out how bulk Form 7 filings became a flashpoint in several states during the revision. They were filed after the draft rolls came out, so many voters found out only when the final lists were published.",
+    summary: "An October 2026 explainer sets out how bulk Form 7 filings became a flashpoint in several states during the revision. They were filed after the draft rolls came out, so many voters found out only when the final lists were published. On 10 October 2026 the ECI capped Form 7 filings at 10 per elector during a claims period and required verification before any deletion.",
     links: [
-      { title: "Election Commission's Forms 6, 7, and 8: How voter list procedures are triggering controversy across India", url: "https://www.onmanorama.com/news/india/2026/10/10/voter-list-election-forms-6-7-8-controversy-explained.html", outlet: "Onmanorama", date: "2026-10-10", type: "explainer" }
+      { title: "Election Commission's Forms 6, 7, and 8: How voter list procedures are triggering controversy across India", url: "https://www.onmanorama.com/news/india/2026/10/10/voter-list-election-forms-6-7-8-controversy-explained.html", outlet: "Onmanorama", date: "2026-10-10", type: "explainer" },
+      { title: "Election Commission sets limits on Form 7 applications to curb bulk filing", url: "https://newsonair.gov.in/election-commission-sets-limits-on-form-7-applications-to-curb-bulk-filing/", outlet: "All India Radio", date: "2026-10-10", type: "official" }
     ]
   }
 ];
