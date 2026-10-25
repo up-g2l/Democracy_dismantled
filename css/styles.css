@@ -456,3 +456,33 @@ dialog.watch::backdrop { background: rgba(8, 7, 14, .78); backdrop-filter: blur(
   .watch-tabs { order: 3; width: 100%; }
   .watch-close { margin-inline-start: auto; }
 }
+
+/* ---------- Share bar ---------- */
+.share { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; margin-top: 18px; }
+.share-label { font-size: .85rem; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); }
+.share ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.share-btn {
+  display: inline-flex; align-items: center; min-height: 34px; padding: 0 13px; border-radius: 999px;
+  font: inherit; font-size: .88rem; font-weight: 600; text-decoration: none; cursor: pointer;
+  color: #fff; border: 0; transition: filter .15s, transform .15s;
+}
+.share-btn:hover { filter: brightness(1.12); transform: translateY(-1px); }
+.share-btn:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.share-whatsapp { background: #1a7f4b; }
+.share-x { background: #111111; }
+.share-facebook { background: #1b5fcf; }
+.share-telegram { background: #1d7fb8; }
+.share-instagram { background: #b8327a; }
+.share-copy { background: transparent; color: var(--ink); box-shadow: inset 0 0 0 1.5px var(--rule); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .share-x { background: #2c2c2c; box-shadow: inset 0 0 0 1px #555; } }
+:root[data-theme="dark"] .share-x { background: #2c2c2c; box-shadow: inset 0 0 0 1px #555; }
+.about .share { margin-top: 26px; padding-top: 18px; border-top: 1px solid var(--rule); }
+.home .share-label { color: #0b1446; opacity: .8; }
+.home .share-copy { color: #0b1446; box-shadow: inset 0 0 0 1.5px rgba(11, 20, 70, .45); }
+.share-toast {
+  position: fixed; left: 50%; bottom: 24px; transform: translate(-50%, 20px); opacity: 0; pointer-events: none;
+  max-width: min(92vw, 420px); padding: 11px 16px; border-radius: 10px; z-index: 60;
+  background: #111018; color: #ecebf2; font-size: .92rem; box-shadow: 0 10px 30px -10px rgba(0,0,0,.5);
+  transition: opacity .2s, transform .2s;
+}
+.share-toast.show { opacity: 1; transform: translate(-50%, 0); }

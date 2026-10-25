@@ -59,6 +59,7 @@ open `index.html`, or upload the whole folder to any static host (GitHub Pages, 
 - `js/app.js`, `js/data.js` – the Indian Express archive page
 - `js/videos-data.js` – the videos behind the Watch button; tag each with the pages it belongs on
 - `js/watch.js` – the Watch overlay
+- `js/share.js` – the share bar (WhatsApp, X, Facebook, Telegram, Instagram, Copy link)
 - `wrangler.jsonc`, `worker.js` – Cloudflare settings and the redirect from the old
   workers.dev address to janmat.net; `.assetsignore` keeps repository files off the site
 - `images/og/` – 1200×630 pictures shown when a page is shared on WhatsApp, X etc.
