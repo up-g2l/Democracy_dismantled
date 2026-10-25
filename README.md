@@ -3,7 +3,8 @@
 A static website collecting reporting on India's election machinery. No build step:
 open `index.html`, or upload the whole folder to any static host (GitHub Pages, Netlify).
 
-- Live site (Cloudflare): https://democracy-dismantled.demsaver.workers.dev/
+- Live site (Cloudflare): https://janmat.net/ (the old address
+  democracy-dismantled.demsaver.workers.dev redirects there; see `worker.js`)
 - Mirror (GitHub Pages): https://up-g2l.github.io/Democracy_dismantled/
 - Source: https://github.com/up-g2l/Democracy_dismantled (GitHub Pages serves the `main`
   branch from the root folder; every push to `main` updates both live addresses)
@@ -58,5 +59,7 @@ open `index.html`, or upload the whole folder to any static host (GitHub Pages, 
 - `js/app.js`, `js/data.js` – the Indian Express archive page
 - `js/videos-data.js` – the videos behind the Watch button; tag each with the pages it belongs on
 - `js/watch.js` – the Watch overlay
+- `wrangler.jsonc`, `worker.js` – Cloudflare settings and the redirect from the old
+  workers.dev address to janmat.net; `.assetsignore` keeps repository files off the site
 - `images/og/` – 1200×630 pictures shown when a page is shared on WhatsApp, X etc.
 - `sitemap.xml`, `robots.txt` – tell search engines which pages exist

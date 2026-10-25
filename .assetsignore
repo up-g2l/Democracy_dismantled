@@ -1,0 +1,9 @@
+.git
+.github
+.assetsignore
+.nojekyll
+wrangler.jsonc
+worker.js
+README.md
+LICENSE
+node_modules
