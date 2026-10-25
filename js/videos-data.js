@@ -8,7 +8,7 @@
     title   – the video's title
     channel – who published it
     topics  – which pages it belongs on. Use the page names:
-              reports, west-bengal, bogus-voters, form-6, form-7, centralisation, opacity,
+              reports, west-bengal, uttar-pradesh, bogus-voters, form-6, form-7, centralisation, opacity,
               double-standards, accountability, selection, supreme-court
               A page with no videos of its own shows all of them.
   The home page shows every video. Order here is the order shown.
