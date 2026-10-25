@@ -7,3 +7,5 @@ worker.js
 README.md
 LICENSE
 node_modules
+.wrangler
+.gitignore
