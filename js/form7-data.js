@@ -36,14 +36,49 @@ window.CASES = [
     ]
   },
   {
+    id: "karnataka-2026",
+    place: "Bengaluru and Karnataka",
+    election: "Special Intensive Revision, October 2026",
+    summary: "About 91,000 Form 7 applications reached Karnataka's election office between mid-June and early October. Chief Minister D.K. Shivakumar led a sit-in at the Chief Electoral Officer's office, alleging BJP and JD(S) workers filed pre-printed forms in bulk, including 3,244 in one day in Bhalki and about 13,000 against Muslim voters in Vijayapura. The CEO told all 224 registration officers to act against false filings and said not one voter had been deleted on a Form 7 objection. In Bengaluru, police registered an FIR over 5,698 Form 7s in Jayanagar naming BJP functionaries, and booked a booth agent over 136 forms with mismatched signatures in Malleshwaram. The BJP and JD(S) said filing objections is a lawful right and asked the Governor to stop the criminal cases.",
+    links: [
+      { title: "BJP asks EC to verify Form-7 applications, accuses K'taka CM of 'pressuring' poll panel", url: "https://theprint.in/india/bjp-asks-ec-to-verify-form-7-applications-accuses-ktaka-cm-of-pressuring-poll-panel/3059635/", outlet: "ThePrint (PTI)", date: "2026-10-01", type: "allegation" },
+      { title: "Karnataka CEO orders action over false Form 7 filings after CM DK Shivakumar's protest", url: "https://www.thenewsminute.com/karnataka/karnataka-ceo-orders-action-over-false-form-7-filings-after-cm-dk-shivakumars-protest", outlet: "The News Minute", date: "2026-10-02", type: "official" },
+      { title: "Not a single Karnataka voter deleted over objections filed via Form 7: Election Commissioner", url: "https://www.theweek.in/news/india/2026/10/05/karnataka-voter-deleted-over-objections-filed-via-form-7-election-commissioner.html", outlet: "The Week", date: "2026-10-05", type: "official" },
+      { title: "Jayanagar Form-7 row: FIR over bid to delete 5,698 voter names", url: "https://www.siasat.com/jayanagar-form-7-row-fir-over-bid-to-delete-5698-voter-names-3553282/", outlet: "Siasat", date: "2026-10-06", type: "police" },
+      { title: "Bengaluru: BLA booked over 136 'forged' Form-7 voter deletion applications", url: "https://www.deccanherald.com/india/karnataka/bengaluru/bengaluru-bla-booked-over-136-forged-form-7-voter-deletion-applications-4172138", outlet: "Deccan Herald", date: "2026-10-06", type: "police" },
+      { title: "NDA delegation urges Karnataka Governor to act against alleged interference in SIR", url: "https://dailypioneer.com/news/nda-karnataka-governor-sir-form-7-objections", outlet: "The Pioneer", date: "2026-10-06", type: "allegation" }
+    ]
+  },
+  {
+    id: "jharkhand",
+    place: "Godda, Jharkhand",
+    election: "Special Intensive Revision, September 2026",
+    summary: "The Indian Express reported that BJP booth agents in Jharkhand had filed Form 7 objections in bulk, mostly against Muslim voters, and that booth officers refused forms with no verifiable source. In Godda, police registered an FIR and arrested a BJP-affiliated booth agent accused of filing about 200 Form 7s, all against minority voters; he was released on bail. The district election officer ordered a probe, and the BJP filed a counter-complaint.",
+    links: [
+      { title: "From BJP office: BLOs refuse to accept bulk Form 7s in Jharkhand", url: "https://www.siasat.com/from-bjp-office-blos-refuse-to-accept-bulk-form-7s-in-jharkhand-3535358/", outlet: "Siasat (citing The Indian Express)", date: "2026-09-03", type: "investigation" },
+      { title: "Bulk voter deletion forms in Jharkhand's Godda trigger probe: what we know", url: "https://www.outlookindia.com/national/jharkhand-sir-probe-ordered-into-bulk-voter-deletion-forms-in-godda", outlet: "Outlook", date: "2026-09-06", type: "official" },
+      { title: "SIR: Jharkhand BLA arrested for allegedly hundreds of Form 7 targeting Muslims", url: "https://www.thequint.com/news/breaking-news/sir-jharkhand-bla-arrested-for-allegedly-hundreds-of-form-7-targeting-muslims", outlet: "The Quint", date: "2026-09-06", type: "police" }
+    ]
+  },
+  {
+    id: "rajasthan",
+    place: "Rajasthan",
+    election: "Special Intensive Revision, January 2026",
+    summary: "Former Chief Minister Ashok Gehlot alleged that, on the last day for claims and objections, officials under pressure from the BJP government pushed booth-level officers to remove Congress-leaning voters and even handed them pre-filled Form 7s, threatening transfers to those who refused. The allegation has not been independently verified.",
+    links: [
+      { title: "BJP manipulating electoral rolls to remove Congress voters: Ex-Rajasthan CM Gehlot", url: "https://www.deccanherald.com/amp/story/india%2Frajasthan%2Fbjp-manipulating-electoral-rolls-to-remove-congress-voters-ex-rajasthan-cm-gehlot-3863647", outlet: "Deccan Herald", date: "2026-01-16", type: "allegation" }
+    ]
+  },
+  {
     id: "assam",
     place: "Assam",
     election: "Special Revision, January 2026",
-    summary: "BJP workers and booth agents told Scroll that their names, phone numbers and voter ID details were used without their knowledge. They said these were used to file bulk objections against hundreds of voters, mostly Muslims. Police complaints were filed and some hearings in Nagaon were suspended. The state election department says a Form 7 does not delete a name by itself. Chief Minister Himanta Biswa Sarma dismissed the Opposition's concerns.",
+    summary: "BJP workers and booth agents told Scroll that their names, phone numbers and voter ID details were used without their knowledge. They said these were used to file bulk objections against hundreds of voters, mostly Muslims. Police complaints were filed and some hearings in Nagaon were suspended. The state election department says a Form 7 does not delete a name by itself. Chief Minister Himanta Biswa Sarma dismissed the Opposition's concerns. In one Sribhumi booth the man named as objector found his own name among the 133 voters objected to, and about 26,000 objections were reported in five Dhubri constituencies. Officials said no name would be deleted without verification.",
     links: [
       { title: "BJP workers in Assam say their names used to seek mass voter deletion – without their knowledge", url: "https://scroll.in/article/1090212/bjp-workers-in-assam-say-their-names-used-to-seek-mass-voter-deletion-without-their-knowledge", outlet: "Scroll", date: "2026-01-24", type: "ground" },
       { title: "Genuine citizens being harassed in Assam Special Revision through Form-7, alleges Opposition: Report", url: "https://m.thewire.in/article/communalism/genuine-citizens-being-harassed-in-assam-special-revision-through-form-7-alleges-opposition-report", outlet: "The Wire", date: "2026-01-25", type: "allegation" },
-      { title: "Special revision in Assam leaves citizens fighting for identity", url: "https://www.etvbharat.com/en/state/special-revision-in-assam-leaves-citizens-fighting-for-identity-enn26012902557", outlet: "ETV Bharat", date: "2026-01-29", type: "ground" }
+      { title: "Special revision in Assam leaves citizens fighting for identity", url: "https://www.etvbharat.com/en/state/special-revision-in-assam-leaves-citizens-fighting-for-identity-enn26012902557", outlet: "ETV Bharat", date: "2026-01-29", type: "ground" },
+      { title: "In Assam, 'forged' forms aimed at deleting thousands of Muslim voters ring alarm bells", url: "https://scroll.in/article/1090187/in-assam-forged-forms-aimed-at-deleting-thousands-of-muslim-voters-ring-alarm-bells", outlet: "Scroll", date: "2026-01-23", type: "investigation" }
     ]
   },
   {
@@ -59,27 +94,30 @@ window.CASES = [
     id: "gujarat",
     place: "Gujarat",
     election: "Special Intensive Revision, 2026",
-    summary: "Petitions in the Gujarat High Court say thousands of Form 7 objections filed during the revision were fake, and seek an SIT probe into the deletions that followed. The court issued notice in May 2026.",
+    summary: "Petitions in the Gujarat High Court say thousands of Form 7 objections filed during the revision were fake, and seek an SIT probe into the deletions that followed. The court issued notice in May 2026. In February the state Congress said 95–99% of Form 7 objections in districts such as Anand, Kheda and Bharuch had been rejected as baseless, and asked who had filed them in bulk.",
     links: [
-      { title: "Petitions seek investigation into thousands of 'fake' objection pleas during SIR, Gujarat High Court issues notice", url: "https://www.deccanherald.com/india/gujarat/petitions-seek-investigation-into-thousands-of-fake-objection-pleas-during-sir-gujarat-high-court-issues-notice-3996966", outlet: "Deccan Herald", date: "2026-05-09", type: "court" }
+      { title: "Petitions seek investigation into thousands of 'fake' objection pleas during SIR, Gujarat High Court issues notice", url: "https://www.deccanherald.com/india/gujarat/petitions-seek-investigation-into-thousands-of-fake-objection-pleas-during-sir-gujarat-high-court-issues-notice-3996966", outlet: "Deccan Herald", date: "2026-05-09", type: "court" },
+      { title: "Gujarat Congress says 95-99 pc of Form-7 objections rejected, flags irregularities in SIR", url: "https://www.thehawk.in/news/india/gujarat-congress-says-95-99-pc-of-form-7-objections-rejected-flags-irregularities-in-sir", outlet: "The Hawk", date: "2026-02-13", type: "allegation" }
     ]
   },
   {
     id: "haridwar",
-    place: "Haridwar, Uttarakhand",
+    place: "Haridwar and Kichha, Uttarakhand",
     election: "Special Intensive Revision, 2026",
-    summary: "In Jhabrera, 35 people, 31 of them BJP booth-level agents, say they never filed the 1,657 objections in their names, most of them against Muslim voters. The local registration officer said the objections were cancelled and no names would be deleted. He also said the Election Commission would not order an investigation. Former Election Commissioner Ashok Lavasa said the authorities should run their own inquiry.",
+    summary: "In Jhabrera, 35 people, 31 of them BJP booth-level agents, say they never filed the 1,657 objections in their names, most of them against Muslim voters. The local registration officer said the objections were cancelled and no names would be deleted. He also said the Election Commission would not order an investigation. Former Election Commissioner Ashok Lavasa said the authorities should run their own inquiry. Across five Uttarakhand constituencies, Newslaundry found five BJP-linked men had filed about 6,500 objections, all against Muslim names; one agent in Kichha filed 4,855. A BJP spokesperson said an objection does not mean automatic deletion.",
     links: [
-      { title: "Uttarakhand SIR: The unsolved mystery of BJP agents' 'forged' objections against Muslim voters", url: "https://www.newslaundry.com/2026/08/28/exclusive-bjp-agents-identities-misused-to-file-mass-objections-against-haridwars-muslim-voters", outlet: "Newslaundry", date: "2026-08-28", type: "investigation" }
+      { title: "Uttarakhand SIR: The unsolved mystery of BJP agents' 'forged' objections against Muslim voters", url: "https://www.newslaundry.com/2026/08/28/exclusive-bjp-agents-identities-misused-to-file-mass-objections-against-haridwars-muslim-voters", outlet: "Newslaundry", date: "2026-08-28", type: "investigation" },
+      { title: "Exclusive: Inside the bulk objections targeting Muslims in Uttarakhand's SIR", url: "https://www.newslaundry.com/2026/08/21/inside-the-bulk-objections-targeting-muslims-in-uttarakhands-sir", outlet: "Newslaundry", date: "2026-08-21", type: "investigation" }
     ]
   },
   {
     id: "telangana",
     place: "Telangana",
     election: "Special Intensive Revision, 2026",
-    summary: "Congress complained that a BJP booth-level agent in Musheerabad filed Form 7 applications against 30 voters, which were found to be false on checking. The state's Chief Electoral Officer ordered action against anyone knowingly filing false statements in Forms 6, 7 or 8. The BJP denied its agents filed such forms.",
+    summary: "Congress complained that a BJP booth-level agent in Musheerabad filed Form 7 applications against 30 voters, which were found to be false on checking. The state's Chief Electoral Officer ordered action against anyone knowingly filing false statements in Forms 6, 7 or 8. The BJP denied its agents filed such forms. In Hyderabad's Goshamahal, Asaduddin Owaisi said a BJP sympathiser submitted pre-printed Form 7s against 122 voters; the booth officer rejected them, and the BJP denied involvement.",
     links: [
-      { title: "T'gana CEO orders action against false voter enrolment", url: "https://theprint.in/india/tgana-ceo-orders-action-against-false-voter-enrolment/3062520/", outlet: "ThePrint (PTI)", date: "2026-10-05", type: "official" }
+      { title: "T'gana CEO orders action against false voter enrolment", url: "https://theprint.in/india/tgana-ceo-orders-action-against-false-voter-enrolment/3062520/", outlet: "ThePrint (PTI)", date: "2026-10-05", type: "official" },
+      { title: "Owaisi alleges submission of Form-7 application against Muslim voters by BJP supporter", url: "https://theprint.in/india/owaisi-alleges-submission-of-form-7-application-against-muslim-voters-by-bjp-supporter/3063295/", outlet: "ThePrint (PTI)", date: "2026-10-06", type: "allegation" }
     ]
   },
   {
@@ -111,10 +149,13 @@ window.CASES = [
     id: "across-states",
     place: "Across states",
     election: "Background",
-    summary: "An October 2026 explainer sets out how bulk Form 7 filings became a flashpoint in several states during the revision. They were filed after the draft rolls came out, so many voters found out only when the final lists were published. On 10 October 2026 the ECI capped Form 7 filings at 10 per elector during a claims period and required verification before any deletion.",
+    summary: "An October 2026 explainer sets out how bulk Form 7 filings became a flashpoint in several states during the revision. They were filed after the draft rolls came out, so many voters found out only when the final lists were published. On 10 October 2026 the ECI capped Form 7 filings at 10 per elector during a claims period and required verification before any deletion. In January 2026 the ECI said there was no limit on the number of Form 7s a voter could file, only a mandatory check above five; Frontline traced how the form went from a routine tool to a political weapon.",
     links: [
       { title: "Election Commission's Forms 6, 7, and 8: How voter list procedures are triggering controversy across India", url: "https://www.onmanorama.com/news/india/2026/10/10/voter-list-election-forms-6-7-8-controversy-explained.html", outlet: "Onmanorama", date: "2026-10-10", type: "explainer" },
-      { title: "Election Commission sets limits on Form 7 applications to curb bulk filing", url: "https://newsonair.gov.in/election-commission-sets-limits-on-form-7-applications-to-curb-bulk-filing/", outlet: "All India Radio", date: "2026-10-10", type: "official" }
+      { title: "Election Commission sets limits on Form 7 applications to curb bulk filing", url: "https://newsonair.gov.in/election-commission-sets-limits-on-form-7-applications-to-curb-bulk-filing/", outlet: "All India Radio", date: "2026-10-10", type: "official" },
+      { title: "Form-7's journey from a civic chore to a political weapon", url: "https://adrindia.org/content/form-seven-voter-deletion-india-election-commission-bjp", outlet: "Frontline (via ADR)", date: "2026-02-02", type: "explainer" },
+      { title: "ECI issues clarification on Form-7 procedure", url: "https://www.newsonair.gov.in/eci-issues-clarification-on-form-7-procedure-amid-tmc-bjp-controversy", outlet: "All India Radio", date: "2026-01-17", type: "official" },
+      { title: "After facing flak over bulk Form 7s being filed to seek voter deletions, ECI sets limit of 10 applications for one person", url: "https://thewire.in/government/eci-sets-limit-of-10-form-7-applications-for-one-person", outlet: "The Wire", date: "2026-10-10", type: "official" }
     ]
   }
 ];
