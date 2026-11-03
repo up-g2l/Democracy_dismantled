@@ -39,14 +39,15 @@ window.CASES = [
     id: "karnataka-2026",
     place: "Bengaluru and Karnataka",
     election: "Special Intensive Revision, October 2026",
-    summary: "About 91,000 Form 7 applications reached Karnataka's election office between mid-June and early October. Chief Minister D.K. Shivakumar led a sit-in at the Chief Electoral Officer's office, alleging BJP and JD(S) workers filed pre-printed forms in bulk, including 3,244 in one day in Bhalki and about 13,000 against Muslim voters in Vijayapura. The CEO told all 224 registration officers to act against false filings and said not one voter had been deleted on a Form 7 objection. In Bengaluru, police registered an FIR over 5,698 Form 7s in Jayanagar naming BJP functionaries, and booked a booth agent over 136 forms with mismatched signatures in Malleshwaram. The BJP and JD(S) said filing objections is a lawful right and asked the Governor to stop the criminal cases.",
+    summary: "About 91,000 Form 7 applications reached Karnataka's election office between mid-June and early October. Chief Minister D.K. Shivakumar led a sit-in at the Chief Electoral Officer's office, alleging BJP and JD(S) workers filed pre-printed forms in bulk, including 3,244 in one day in Bhalki and about 13,000 against Muslim voters in Vijayapura. The CEO told all 224 registration officers to act against false filings and said not one voter had been deleted on a Form 7 objection. In Bengaluru, police registered an FIR over 5,698 Form 7s in Jayanagar naming BJP functionaries, and booked a booth agent over 136 forms with mismatched signatures in Malleshwaram. The BJP and JD(S) said filing objections is a lawful right and asked the Governor to stop the criminal cases. On 10 October the Karnataka High Court stayed two FIRs against BJP booth agents in Malleshwaram, who argued that only election officials, not the police, could act on false objections.",
     links: [
       { title: "BJP asks EC to verify Form-7 applications, accuses K'taka CM of 'pressuring' poll panel", url: "https://theprint.in/india/bjp-asks-ec-to-verify-form-7-applications-accuses-ktaka-cm-of-pressuring-poll-panel/3059635/", outlet: "ThePrint (PTI)", date: "2026-10-01", type: "allegation" },
       { title: "Karnataka CEO orders action over false Form 7 filings after CM DK Shivakumar's protest", url: "https://www.thenewsminute.com/karnataka/karnataka-ceo-orders-action-over-false-form-7-filings-after-cm-dk-shivakumars-protest", outlet: "The News Minute", date: "2026-10-02", type: "official" },
       { title: "Not a single Karnataka voter deleted over objections filed via Form 7: Election Commissioner", url: "https://www.theweek.in/news/india/2026/10/05/karnataka-voter-deleted-over-objections-filed-via-form-7-election-commissioner.html", outlet: "The Week", date: "2026-10-05", type: "official" },
       { title: "Jayanagar Form-7 row: FIR over bid to delete 5,698 voter names", url: "https://www.siasat.com/jayanagar-form-7-row-fir-over-bid-to-delete-5698-voter-names-3553282/", outlet: "Siasat", date: "2026-10-06", type: "police" },
       { title: "Bengaluru: BLA booked over 136 'forged' Form-7 voter deletion applications", url: "https://www.deccanherald.com/india/karnataka/bengaluru/bengaluru-bla-booked-over-136-forged-form-7-voter-deletion-applications-4172138", outlet: "Deccan Herald", date: "2026-10-06", type: "police" },
-      { title: "NDA delegation urges Karnataka Governor to act against alleged interference in SIR", url: "https://dailypioneer.com/news/nda-karnataka-governor-sir-form-7-objections", outlet: "The Pioneer", date: "2026-10-06", type: "allegation" }
+      { title: "NDA delegation urges Karnataka Governor to act against alleged interference in SIR", url: "https://dailypioneer.com/news/nda-karnataka-governor-sir-form-7-objections", outlet: "The Pioneer", date: "2026-10-06", type: "allegation" },
+      { title: "Karnataka SIR: High Court stays FIRs against BJP booth level agents for attempting to delete voter names", url: "https://www.livelaw.in/high-court/karnataka-high-court/karnataka-high-court-stays-fir-against-bjp-booth-level-agents-bulk-fake-form7-filings-554041", outlet: "LiveLaw", date: "2026-10-10", type: "court" }
     ]
   },
   {
@@ -67,6 +68,15 @@ window.CASES = [
     summary: "Former Chief Minister Ashok Gehlot alleged that, on the last day for claims and objections, officials under pressure from the BJP government pushed booth-level officers to remove Congress-leaning voters and even handed them pre-filled Form 7s, threatening transfers to those who refused. The allegation has not been independently verified.",
     links: [
       { title: "BJP manipulating electoral rolls to remove Congress voters: Ex-Rajasthan CM Gehlot", url: "https://www.deccanherald.com/amp/story/india%2Frajasthan%2Fbjp-manipulating-electoral-rolls-to-remove-congress-voters-ex-rajasthan-cm-gehlot-3863647", outlet: "Deccan Herald", date: "2026-01-16", type: "allegation" }
+    ]
+  },
+  {
+    id: "sultanpur",
+    place: "Sultanpur, Uttar Pradesh",
+    election: "Special Intensive Revision, 2026",
+    summary: "A man who cannot sign said forged Form 7s carrying his signature sought to delete 26 voters at one Sultanpur booth. Police registered an FIR against unidentified people only on 24 October 2026, eight months later. The state's election chief said those forms were never processed, but acknowledged that up to 100 people across the state had been wrongly removed through bulk Form 7s.",
+    links: [
+      { title: "FIR in UP eight months after man who cannot sign says forged signature was used to delete 26 voters", url: "https://m.thewire.in/article/rights/uttar-pradesh-fir-man-who-cannot-sign-forged-signature-delete-voters", outlet: "The Wire", date: "2026-10-27", type: "police" }
     ]
   },
   {
@@ -114,10 +124,11 @@ window.CASES = [
     id: "telangana",
     place: "Telangana",
     election: "Special Intensive Revision, 2026",
-    summary: "Congress complained that a BJP booth-level agent in Musheerabad filed Form 7 applications against 30 voters, which were found to be false on checking. The state's Chief Electoral Officer ordered action against anyone knowingly filing false statements in Forms 6, 7 or 8. The BJP denied its agents filed such forms. In Hyderabad's Goshamahal, Asaduddin Owaisi said a BJP sympathiser submitted pre-printed Form 7s against 122 voters; the booth officer rejected them, and the BJP denied involvement.",
+    summary: "Congress complained that a BJP booth-level agent in Musheerabad filed Form 7 applications against 30 voters, which were found to be false on checking. The state's Chief Electoral Officer ordered action against anyone knowingly filing false statements in Forms 6, 7 or 8. The BJP denied its agents filed such forms. In Hyderabad's Goshamahal, Asaduddin Owaisi said a BJP sympathiser submitted pre-printed Form 7s against 122 voters; the booth officer rejected them, and the BJP denied involvement. Police later booked the Musheerabad booth agent on the returning officer's complaint; officials confirmed all 30 voters lived there.",
     links: [
       { title: "T'gana CEO orders action against false voter enrolment", url: "https://theprint.in/india/tgana-ceo-orders-action-against-false-voter-enrolment/3062520/", outlet: "ThePrint (PTI)", date: "2026-10-05", type: "official" },
-      { title: "Owaisi alleges submission of Form-7 application against Muslim voters by BJP supporter", url: "https://theprint.in/india/owaisi-alleges-submission-of-form-7-application-against-muslim-voters-by-bjp-supporter/3063295/", outlet: "ThePrint (PTI)", date: "2026-10-06", type: "allegation" }
+      { title: "Owaisi alleges submission of Form-7 application against Muslim voters by BJP supporter", url: "https://theprint.in/india/owaisi-alleges-submission-of-form-7-application-against-muslim-voters-by-bjp-supporter/3063295/", outlet: "ThePrint (PTI)", date: "2026-10-06", type: "allegation" },
+      { title: "BJP booth agent booked in Hyderabad over use of Form 7 to seek deletion of 30 Muslim voters", url: "https://maktoobmedia.com/post?id=116635&slug=bjp-booth-agent-booked-in-hyderabad-over-use-of-form-7-to-seek-deletion-of-30-muslim-voters", outlet: "Maktoob", date: "2026-10-07", type: "police" }
     ]
   },
   {

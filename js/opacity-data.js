@@ -62,13 +62,14 @@ window.CASES = [
     id: "rti",
     place: "RTI refusals and undisclosed workings",
     election: "2025–2026",
-    summary: "The ECI cited the 2003 revision to justify the Bihar SIR, but declined to release the 2003 order under RTI. In a later RTI reply it said it had no information on the 2003 exercise and had not taken a decision on the 2025 SIR, which its own June circular contradicts. The Aland police probe stalled because the ECI did not share its data. The software that flags voters during the SIR, and its rules, have not been made public.",
+    summary: "The ECI cited the 2003 revision to justify the Bihar SIR, but declined to release the 2003 order under RTI. In a later RTI reply it said it had no information on the 2003 exercise and had not taken a decision on the 2025 SIR, which its own June circular contradicts. The Aland police probe stalled because the ECI did not share its data. The software that flags voters during the SIR, and its rules, have not been made public. In October 2026 the ECI refused an RTI request to name the software or AI used to flag voters in the revision, citing commercial confidence and intellectual property.",
     links: [
       { title: "Election Commission refuses to provide 2003 Bihar SIR order in RTI query", url: "https://thewire.in/rights/election-commission-refuses-to-provide-2003-bihar-sir-order-in-rti-query", outlet: "The Wire", date: "2025-08-27", type: "rti" },
       { title: "Probe into forged voter deletion applications in K'taka stalls as EC does not share data: Report", url: "https://thewire.in/government/aland-karnataka-form-7-probe-stalls-no-ec-data-report", outlet: "The Wire", date: "2025-09-07", type: "investigation" },
       { title: "'EC has not taken a decision on the 2025 SIR, no info available on 2003 exercise': EC's confounding RTI response", url: "https://thewire.in/government/ec-has-not-taken-a-decision-on-the-2025-sir-no-info-available-on-2003-exercise-ecs-confounding-rti-response", outlet: "The Wire", date: "2025-11-14", type: "rti" },
       { title: "Analysis and explainer on the software of the SIR that runs without transparency", url: "https://internetfreedom.in/analysis-and-explainer-on-the-software-of-the-sir-that-runs-without-transparency/", outlet: "Internet Freedom Foundation", date: "2026-09-25", type: "explainer" },
-      { title: "IFF filed RTI applications seeking what the Election Commission has not disclosed about the SIR", url: "https://internetfreedom.in/iff-filed-rti-applications-seeking-what-the-election-commission-has-not-disclosed-about-the-sir/", outlet: "Internet Freedom Foundation", date: "2026-10-06", type: "rti" }
+      { title: "IFF filed RTI applications seeking what the Election Commission has not disclosed about the SIR", url: "https://internetfreedom.in/iff-filed-rti-applications-seeking-what-the-election-commission-has-not-disclosed-about-the-sir/", outlet: "Internet Freedom Foundation", date: "2026-10-06", type: "rti" },
+      { title: "Election Commission refuses to disclose SIR software details under RTI, cites trade secrets", url: "https://www.ibtimes.co.in/election-commission-refuses-disclose-sir-software-details-under-rti-cites-trade-secrets-907831", outlet: "IBTimes India", date: "2026-10-25", type: "rti" }
     ]
   },
   {
