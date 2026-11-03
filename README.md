@@ -59,6 +59,8 @@ open `index.html`, or upload the whole folder to any static host (GitHub Pages, 
 - `js/app.js`, `js/data.js` – the Indian Express archive page
 - `js/videos-data.js` – the videos behind the Watch button; tag each with the pages it belongs on
 - `js/watch.js` – the Watch overlay
+- `how-a-vote-disappears.html`, `js/explainer.js` – the animated explainer (scroll-driven; the
+  constituency and 20-seat state are illustrations, set in explainer.js)
 - `js/share.js` – the share bar (WhatsApp, X, Facebook, Telegram, Instagram, Copy link)
 - `wrangler.jsonc`, `worker.js` – Cloudflare settings and the redirect from the old
   workers.dev address to janmat.net; `.assetsignore` keeps repository files off the site
