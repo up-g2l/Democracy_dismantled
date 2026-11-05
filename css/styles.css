@@ -571,3 +571,6 @@ dialog.watch::backdrop { background: rgba(8, 7, 14, .78); backdrop-filter: blur(
 }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .explainer-page .ex-bar, :root:not([data-theme="light"]) .explainer-page .ex-tile text { color: #0d0d14; fill: #0d0d14; } }
 :root[data-theme="dark"] .explainer-page .ex-bar, :root[data-theme="dark"] .explainer-page .ex-tile text { color: #0d0d14; fill: #0d0d14; }
+.type-said::before { border-color: var(--muted); }
+.type-did::before { border-color: var(--violet); }
+.type-opinion::before { border-color: var(--rule); }
